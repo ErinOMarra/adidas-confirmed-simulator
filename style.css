@@ -1,0 +1,61 @@
+body{
+	font-family: 'Archivo Narrow';
+	font-size: 22px;
+}
+
+p{
+	text-align: center;
+}
+
+.correct{
+	display: none;
+}
+
+.incorrect{
+	display: none;
+}
+
+.grid{
+	display: none;
+	min-width: 315px;
+	max-width: 667px;
+	max-height: 568px;
+	margin: 0 auto;
+}
+
+.square{
+	float: left;
+	position: relative;
+	width: 30%;
+	padding-bottom: 30%;
+	margin: 1.66%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+#stopwatch{
+	text-align: center;
+}
+
+.img1_1{background-image:url('img/01.jpg');}
+.img1_2{background-image:url('img/02.jpg');}
+.img1_3{background-image:url('img/03.jpg');}
+.img2_1{background-image:url('img/04.jpg');}
+.img2_2{background-image:url('img/05.jpg');}
+.img2_3{background-image:url('img/06.jpg');}
+.img3_1{background-image:url('img/07.jpg');}
+.img3_2{background-image:url('img/08.jpg');}
+.img3_3{background-image:url('img/09.jpg');}
+
+@media (max-height: 750px){
+	.grid{
+		max-width: 500px;
+	}
+}
+
+@media (max-height: 600px){
+	.grid{
+		max-width: 400px;
+	}
+}

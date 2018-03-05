@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Erin O'Marra">
+	<title>Adidas Confirmed Simulator - Erin O'Marra</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href='http://fonts.googleapis.com/css?family=Archivo Narrow' rel='stylesheet' type='text/css'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+<div class="opening">
+<p>Welcome to the Adidas Confirmed simulator!</p>
+<p>You must select the correct image. You can only tap once.</p>
+<p>The captcha will appear in <span id="countdowntimer">5</span></p>
+</div>
+
+	<div class="grid">
+		<p>SELECT THE IMAGE WITH THE YELLOW SOCKS</p>
+	<!-- First row -->
+		<div class="square img1_1"></div>
+		<div class="square img1_2"></div>
+		<div class="square img1_3"></div>
+
+	<!-- Second row -->
+		<div class="square img2_1"></div>
+		<div class="square img2_2"></div>
+		<div class="square img2_3"></div>
+
+	<!-- Third row -->
+		<div class="square img3_1"></div>
+		<div class="square img3_2"></div>
+		<div class="square img3_3"></div>
+	</div>
+
+	<div class="correct">
+		<p>Correct!</p>
+	</div>
+
+	<div class="incorrect">
+		<p>Incorrect! Refresh and try again</p>
+	</div>
+
+	<div id="stopwatch"></div>
+
+<script src="script.js" type="text/javascript"></script>
+</body>
+</html>
