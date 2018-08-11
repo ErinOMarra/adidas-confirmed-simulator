@@ -30,7 +30,7 @@ $('.square').click(function() {
   //var t1 = performance.now() - t0 - 5000;
   console.log("It took you " + end + " milliseconds");
 
-  if ($(this).hasClass('img3_3')) {
+  if ($(this).hasClass('img1_2')) {
   	$('.grid').hide();
   	$('.correct').show();
     document.getElementById("stopwatch").innerHTML = ("It took you " + end + " milliseconds");
